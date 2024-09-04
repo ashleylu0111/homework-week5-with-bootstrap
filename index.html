@@ -15,10 +15,10 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-<div class="d-flex"">
+<div class="d-flex">
   <div class="d-flex flex-column" style="height: 100vh;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 100%;">
-      <div class="container-fluid flex-column"
+      <div class="container-fluid flex-column">
       <a class="navbar-brand" href="#">
         <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e33e944d6b136d33939dadf6358d65c76ec06e49/week5/logo-ANSWER.svg" alt="" width="143" height="40" class="d-inline-block align-text-top"> 
       </a>
@@ -47,8 +47,8 @@
     </nav>
     <nav class="navbar navbar-expand-lg navbar-light bg-light card border-0 ">
       <div class="d-flex">
-          <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true" class="rounded-circle" style="width: 40px; height: 40px;" alt="Andy Chen-img">
-          <div class="card-body" style="width:  296px;">
+          <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true" class="rounded-circle me-2" style="width: 40px; height: 40px;" alt="Andy Chen-img">
+          <div class="card-body p-0" style="width:  296px;">
             <h5 class="card-title">Andy Chen</h5>
             <p class="card-text"><small class="text-muted">andy0401@mail.com</small></p>
           </div>
@@ -60,7 +60,7 @@
      <div class="col-12">
        <div class="d-flex">
         <div class="d-flex">
-         <h2>Assignment</h2>
+         <h2 class="me-5">Assignment</h2>
          <div class="dropdown">
           <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             All Courses
@@ -68,7 +68,7 @@
         </div>
         </div>
         <div class="d-flex align-items-center ms-auto">
-          <span class="material-symbols-outlined">
+          <span class="material-symbols-outlined me-3">
             search
             </span>
             <span class="material-symbols-outlined">
@@ -123,19 +123,19 @@
             </a>
           </div>
          <div class="col-6">
-          <p class="text-muted ms-0">2 comments</p>
+          <p class="text-muted ms-auto">2 comments</p>
           <div class="card ms-3">
             <div class="card-header">
               <p class="card-text">Chapter Assignment 2 / HTML&CSS</p>
               <h5 class="card-title">Please check this file for me, thanks!</h5>
             </div>
-            <div class="card-body p-0"> 
+            <div class="card-body"> 
               <div class="d-flex justify-content-start">
                 <div class="">
-                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/emilywang.jpeg?raw=true" class="rounded-circle" style="width: 40px; height: 40px;" alt="Emily Wang-img">
+                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/emilywang.jpeg?raw=true" class="rounded-circle me-2" style="width: 40px; height: 40px;" alt="Emily Wang-img">
                 </div>
                 <div class="">
-                  <div class="card-body">
+                  <div class="card-body p-0">
                     <h5 class="card-title">Emily Wang</h5>
                     <p class="card-text"><small class="text-muted">10:38 AM (4 hours ago)</small></p>
                   </div>
@@ -152,7 +152,7 @@
             <div class="card-body">
               <div class="d-flex justify-content-start">
                 <div class="">
-                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true" class="rounded-circle" style="width: 40px; height: 40px;" alt="Andy Chen-img">
+                  <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true" class="rounded-circle me-2" style="width: 40px; height: 40px;" alt="Andy Chen-img">
                 </div>
                 <div class="d-flex w-100">
                   <div class="card-body p-0">
@@ -181,29 +181,27 @@
         </div>
       </div>
       <div class="d-flex pt-5 justify-content-around">
-        <span class="material-symbols-outlined">
+        <div>
+          <span class="material-symbols-outlined me-3">
           chevron_left
           </span>
           <span class="material-symbols-outlined">
             chevron_right
-            </span>
-        <button type="button" class="btn btn-outline-success">Mark as read</button>
-        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Reply</button>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                ...
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
-            </div>
+          </span>
+        </div>
+        <div>
+          <p>
+            <a class="btn border-success border-2 text-success me-3" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Mark as read
+            </a>
+            <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Reply
+            </button>
+          </p>
+        </div>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
           </div>
         </div>
       </div>
@@ -211,5 +209,11 @@
     </div>
   </div>  
 </div>
+
+var collapseElementList = [].slice.call(document.querySelectorAll('.collapse'))
+var collapseList = collapseElementList.map(function (collapseEl) {
+  return new bootstrap.Collapse(collapseEl)
+})
+
 </body>
 </html>
