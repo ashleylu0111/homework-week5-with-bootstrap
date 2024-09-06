@@ -57,13 +57,13 @@
                   <a class="nav-link" href="#">Question</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Assignment</a>
+                  <a class="nav-link" href="#">Assignment</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Course</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Admin</a>
+                  <a class="nav-link active border-start border-success border-3" href="#">Admin</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Settings</a>
@@ -97,7 +97,7 @@
             <h2 class="me-5">Admin</h2>
             <button
               type="button"
-              class="btn btn-outline-light text-dark d-inline-flex align-items-center data-bs-toggle="modal" data-bs-target="#add"
+              class="btn btn-outline-light text-dark d-inline-flex align-items-center" data-bs-toggle="modal" data-bs-target="#add"
             >
               <span class="material-symbols-outlined"> add </span>Add New Admin
             </button>
@@ -334,11 +334,11 @@
              <h4>Account</h4>
              <div class="mb-3">
                <label for="name" class="form-label">Name</label>
-               <input type="name" class="form-control" id="name" placeholder="Emir Wicks">
+               <input type="name" class="form-control bg-light rounded-0 border-0 p-3" id="name" placeholder="Emir Wicks">
              </div>
              <div class="mb-3">
                <label for="email" class="form-label">Email</label>
-               <input class="form-control" id="email" placeholder="emir.wicks@mail.com"></input>
+               <input class="form-control bg-light rounded-0 border-0 p-3" id="email" placeholder="emir.wicks@mail.com"></input>
                <hr>
                <h4>Verification</h4>
                <div class="d-flex justify-content-between">
@@ -352,13 +352,13 @@
              </div>
             </div>
             <div class="d-grid gap-2 col-6 mx-auto">
-             <button type="button" class="btn btn-outline-secondary text-success mx-auto" disabled>Send Verification Mail</button>
+             <button type="button" class="btn btn-outline-secondary text-success w-100" disabled>Send Verification Mail</button>
             </div>
             <hr>
             <h4>Access Level</h4>
             <div class="dropdown">
-             <button class="btn btn-outline-secondary dropdown-toggle me-auto" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-               Admin
+             <button class="btn btn-outline-secondary dropdown-toggle me-auto w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              -Choose access level-
              </button>
              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                <li><a class="dropdown-item" href="#">Action</a></li>
@@ -405,7 +405,7 @@
              </span>
            <p class="text-danger">This cannot be undone!</p>
            </div>
-           <button type="button" class="btn btn-outline-danger">Deactivate This Account</button>
+           <button type="button" class="btn btn-outline-danger w-100">Deactivate This Account</button>
             </div>
            </div>
            <div class="modal-footer">
@@ -541,12 +541,12 @@
                 </div>
                </div>
                <div class="d-grid gap-2 col-6 mx-auto">
-                <button type="button" class="btn btn-outline-secondary mx-auto" disabled>Send Verification Mail</button>
+                <button type="button" class="btn btn-outline-secondary w-100" disabled>Send Verification Mail</button>
                </div>
                <hr>
                <h4>Access Level</h4>
                <div class="dropdown">
-                <button class="btn btn-outline-secondary dropdown-toggle me-auto" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-outline-secondary dropdown-toggle me-auto w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                   Admin
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -594,7 +594,7 @@
                 </span>
               <p class="text-danger">This cannot be undone!</p>
               </div>
-              <button type="button" class="btn btn-outline-danger">Deactivate This Account</button>
+              <button type="button" class="btn btn-outline-danger w-100">Deactivate This Account</button>
                </div>
               </div>
               <div class="modal-footer">
